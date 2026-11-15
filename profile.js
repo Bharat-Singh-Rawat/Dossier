@@ -14,7 +14,9 @@ window.PROFILE = {
   summary: "Expert in manipulating charged particle beams with 7+ years of experience in the design of ion sources, beam extraction/transport systems, and digital twins.",
 
   links: [
-    { label: "PROJECT_DT", url: "https://bharat-singh-rawat.github.io/AEgIS_Electromagnets_Outreach/" },
+    { label: "bharat.bharat22@gmail.com", url: "mailto:bharat.bharat22@gmail.com" },
+    { label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=gQP3HLAAAAAJ&view_op=list_works&sortby=pubdate" },
+    { label: "AEgIS Digital Twin Outreach", url: "https://bharat-singh-rawat.github.io/AEgIS_Electromagnets_Outreach/" },
     { label: "PY-BEMCS",   url: "https://github.com/Bharat-Singh-Rawat/PY-BEMCS" }
   ],
 
@@ -22,7 +24,7 @@ window.PROFILE = {
     {
       role: "Accelerator Physicist",
       org: "Basilisk Industries, Vancouver, Canada",
-      dates: "10/2026 — Present",
+      dates: "2026 — Present",
       bullets: [
         "Simulating the <b>electron injector</b>, including <b>beam extraction</b> and <b>beam transport</b>.",
         "Working on <b>accelerator design</b> and <b>beam diagnostics</b>."
@@ -31,7 +33,7 @@ window.PROFILE = {
     {
       role: "Lead Developer / Independent Researcher",
       org: "PY-BEMCS",
-      dates: "03/2026 — Present",
+      dates: "2026 — Present",
       bullets: [
         "Developing <b>PY-BEMCS</b>, a Python multiphysics suite for simulating ion-beam extraction and Monte Carlo Collision (MCC) physics in ion sources / thrusters and fusion Neutral Beam Injectors (NBI).",
         "Developed a self-consistent <b>Poisson solver</b> integrating Bohm-criterion-based extraction.",
@@ -54,7 +56,7 @@ window.PROFILE = {
     {
       role: "Radiation Protection Engineer",
       org: "Nuvia India Pvt Limited",
-      dates: "2018 — 2018",
+      dates: "2018",
       bullets: [
         "Managed occupational radiation exposure at Kakrapar Atomic Power Station, ensuring strict adherence to weekly, monthly and annual regulatory dose limits.",
         "Developed an automated dose-tracking spreadsheet to monitor exposure trends and identify personnel approaching threshold limits, enabling proactive safety interventions."
@@ -119,7 +121,6 @@ window.PROFILE = {
 
   hobbies: [
     { icon: "♟",  name: "CHESS",       tag: "STRATEGY",    detail: "Chess player - Level ELO 1725, 1900 on chess.com" },
-    { icon: "🌍", name: "LANGUAGES",   tag: "POLYGLOT",    detail: "English, Hindi, Gujarati, Spanish (B2), Russian (A1)" },
     { icon: "🎵", name: "INSTRUMENTS", tag: "INSTRUMENTS", detail: "Keyboards, Harmonium, Melodica, Keytar and Guitar" },
     { icon: "✈️", name: "TRAVELING",   tag: "GEOGRAPHY",   detail: "Travelled over 12 countries and still counting..." }
   ],
@@ -127,10 +128,13 @@ window.PROFILE = {
   skills: [
     { label: "Languages", text: "English (fluent), Hindi &amp; Gujarati (native), Spanish (B2), Russian (A1)." },
     { label: "Coding", text: "Python, MATLAB, C++." },
+    { label: "Machine Learning", text: "PyTorch, scikit-learn." },
+    { label: "Dev &amp; Computing", text: "Git, Linux, HPC." },
     { label: "Particle &amp; Field Solvers", text: "CST Studio (Particle Tracking, ES/EM-PIC), OPERA-3D, SIMION, IBISIMU, COMSOL, RF Track, ASTRA, MAD-X, Geant4, G4Beamline, BDSIM, TAICHI, <b>PY-BEMCS (developer)</b>." },
     { label: "CAD / Multiphysics", text: "SolidWorks, ANSYS (Thermal / Structural / CFD)." },
+    { label: "Hands-on / Lab", text: "High-voltage (HV) systems, vacuum systems, DAQ hardware, control systems." },
     { label: "Outreach", text: "Designed interactive web games for antimatter physics outreach; ran live superconductivity / magnetic-levitation demonstrations." },
-    { label: "Teaching &amp; Misc.", text: "Co-instructor — <i>Introduction to Beam Diagnostics</i>; HPC computing; doctoral-student supervision." }
+    { label: "Teaching &amp; Misc.", text: "Co-instructor — <i>Introduction to Beam Diagnostics</i>; doctoral-student supervision." }
   ],
   expertise: "Ion source design, beam extraction &amp; transport optimisation, space-charge neutralisation, advanced beam diagnostics, digital twins for charged-particle traps."
 };
