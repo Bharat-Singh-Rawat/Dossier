@@ -152,6 +152,28 @@ window.PROFILE = {
     { label: "Outreach", text: "Designed interactive web games for antimatter physics outreach; ran live superconductivity / magnetic-levitation demonstrations." },
     { label: "Teaching &amp; Misc.", text: "Co-instructor — <i>Introduction to Beam Diagnostics</i>; HPC computing tutorials; doctoral-student supervision." }
   ],
+  // Time zone for the "It's 9:14 am in Vancouver" line on the v2 site
+  timezone: "America/Vancouver",
+
+  // Skills network on the v2 site: which skills were used in which work. Edit freely.
+  graph: {
+    skills: [
+      { id: "cst", label: "CST Studio" }, { id: "opera", label: "OPERA-3D" }, { id: "simion", label: "SIMION" },
+      { id: "ansys", label: "ANSYS" }, { id: "sw", label: "SolidWorks" }, { id: "py", label: "Python" },
+      { id: "ml", label: "Machine learning" }, { id: "mc", label: "Monte Carlo / PIC" }, { id: "g4", label: "Geant4 / G4Beamline" },
+      { id: "madx", label: "MAD-X" }, { id: "hv", label: "HV & vacuum" }, { id: "daq", label: "DAQ" }
+    ],
+    work: [
+      { id: "basilisk", label: "Basilisk · LIA & e-injector" }, { id: "pybemcs", label: "PY-BEMCS" },
+      { id: "aegis", label: "AEgIS digital twin" }, { id: "ringcusp", label: "Ring-cusp ion source" }, { id: "fc", label: "10 kW Faraday cup" }
+    ],
+    links: {
+      cst: ["aegis", "ringcusp"], opera: ["ringcusp"], simion: ["fc"], ansys: ["ringcusp", "fc"], sw: ["ringcusp", "fc"],
+      py: ["pybemcs", "aegis"], ml: ["aegis"], mc: ["pybemcs"], g4: ["aegis"], madx: ["aegis"],
+      hv: ["basilisk", "ringcusp", "aegis"], daq: ["basilisk", "ringcusp", "aegis"]
+    }
+  },
+
   // About blurb + photo for the v2 site
   about: {
     photo: "/CV/v2/img/profile.webp",
