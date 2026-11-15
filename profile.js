@@ -136,8 +136,10 @@ window.PROFILE = {
   ],
 
   hobbies: [
-    { icon: "♟",  name: "CHESS",       tag: "STRATEGY",    detail: "Chess player - Level ELO 1725, 1900 on chess.com" },
-    { icon: "🎵", name: "INSTRUMENTS", tag: "INSTRUMENTS", detail: "Keyboards, Harmonium, Melodica, Keytar and Guitar" },
+    { icon: "♟",  name: "CHESS",       tag: "STRATEGY",    detail: "Chess player - Level ELO 1725, 1900 on chess.com",
+      link: "https://www.chess.com/member/blunderapiece26/stats" },
+    { icon: "🎵", name: "INSTRUMENTS", tag: "INSTRUMENTS", detail: "Keyboards, Harmonium, Melodica, Keytar and Guitar",
+      media: { keyboard: { id: "9ILxCY6QcHY", title: "Sweet Child O' Mine · Guns N' Roses" }, guitar: { id: "38g42XT6fIc", title: "Boulevard of Broken Dreams · Green Day" } } },
     { icon: "✈️", name: "TRAVELING",   tag: "GEOGRAPHY",   detail: "Travelled over 12 countries and still counting..." }
   ],
 
