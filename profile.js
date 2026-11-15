@@ -40,21 +40,14 @@ window.PROFILE = {
       ]
     },
     {
-      role: "Scientific Consultant",
-      org: "Independent",
-      dates: "06/2026 — 10/2026",
-      bullets: [
-        "Provided scientific consultancy to start-ups and labs in <b>electric propulsion</b>, <b>ion sources</b>, plasma-based systems and other cross-disciplinary areas, covering modelling, design and optimisation."
-      ]
-    },
-    {
-      role: "Independent Researcher",
-      org: "PY-BEMCS",
-      dates: "03/2026 — 06/2026",
+      role: "Independent R&amp;D and Scientific Consulting",
+      org: "PY-BEMCS · consulting for start-ups and labs",
+      dates: "03/2026 — 10/2026",
       bullets: [
         "Developed <b>PY-BEMCS</b>, a Python-based multiphysics suite for simulating ion-beam extraction and Monte Carlo Collision (MCC) physics in ion sources / thrusters and fusion Neutral Beam Injectors (NBI).",
         "Developed a self-consistent <b>Poisson solver</b> integrating Bohm-criterion-based extraction.",
-        "Implemented dynamic <b>sputter erosion and structural failure</b> logic using probabilistic Charge-Exchange (CEX) scattering models and in-situ mesh erosion to predict grid <b>End-of-Life (EOL)</b>."
+        "Implemented dynamic <b>sputter erosion and structural failure</b> logic using probabilistic Charge-Exchange (CEX) scattering models and in-situ mesh erosion to predict grid <b>End-of-Life (EOL)</b>.",
+        "Provided scientific consultancy to start-ups and labs in <b>electric propulsion</b>, <b>ion sources</b>, plasma-based systems and other cross-disciplinary areas, covering modelling, design and optimisation."
       ]
     },
     {
@@ -159,14 +152,11 @@ window.PROFILE = {
     { label: "Outreach", text: "Designed interactive web games for antimatter physics outreach; ran live superconductivity / magnetic-levitation demonstrations." },
     { label: "Teaching &amp; Misc.", text: "Co-instructor — <i>Introduction to Beam Diagnostics</i>; HPC computing tutorials; doctoral-student supervision." }
   ],
-  // Big statement on the v2 site; the words light up one by one as you scroll
-  statement: "From ion sources and Faraday cups to digital twins of antimatter traps, I build the tools that create, steer and measure charged-particle beams.",
-
   // About blurb + photo for the v2 site
   about: {
     photo: "/CV/v2/img/profile.webp",
     photoAlt: "Portrait of Bharat Singh Rawat",
-    text: "I work with electron and ion sources and the diagnostics that measure their beams, from Faraday cups and Langmuir probes to digital twins of antimatter traps."
+    text: "I work with electron and ion sources and the diagnostics that measure their beams. From Faraday cups and Langmuir probes to digital twins of antimatter traps, I build the tools that create, steer and measure charged-particle beams."
   },
 
   // "What I can offer" (v2 site)
