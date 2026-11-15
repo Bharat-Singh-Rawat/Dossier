@@ -34,7 +34,6 @@ window.PROFILE = {
       org: "Basilisk Industries, Vancouver, Canada",
       dates: "10/2026 — Present",
       bullets: [
-        "Designing a <b>Linear Induction Accelerator</b> for rock-cutting applications.",
         "Responsible for <b>electron injector design</b>, electron optics analysis and optimisation.",
         "Developing plasma and beam diagnostics such as <b>B-dot probes</b>, <b>Faraday cups</b>, <b>Langmuir probes</b> and current monitors."
       ]
@@ -166,7 +165,7 @@ window.PROFILE = {
       { id: "madx", label: "MAD-X" }, { id: "hv", label: "HV & vacuum" }, { id: "daq", label: "DAQ" }
     ],
     work: [
-      { id: "basilisk", label: "Basilisk · LIA & e-injector" }, { id: "pybemcs", label: "PY-BEMCS" },
+      { id: "basilisk", label: "Basilisk · electron injector" }, { id: "pybemcs", label: "PY-BEMCS" },
       { id: "aegis", label: "AEgIS digital twin" }, { id: "ringcusp", label: "Ring-cusp ion source" }, { id: "fc", label: "10 kW Faraday cup" }
     ],
     links: {
