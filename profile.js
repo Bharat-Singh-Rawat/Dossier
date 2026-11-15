@@ -164,8 +164,8 @@ window.PROFILE = {
 
   // About blurb + photo for the v2 site
   about: {
-    photo: "/CV/v2/img/at-aegis.webp",
-    photoAlt: "Bharat at the AEgIS experiment, CERN",
+    photo: "/CV/v2/img/profile.webp",
+    photoAlt: "Portrait of Bharat Singh Rawat",
     text: "I work with electron and ion sources and the diagnostics that measure their beams, from Faraday cups and Langmuir probes to digital twins of antimatter traps."
   },
 
