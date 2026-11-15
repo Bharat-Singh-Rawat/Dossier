@@ -13,6 +13,9 @@ window.PROFILE = {
   title: "ION SOURCE & BEAM DIAGNOSTICS EXPERT",
   summary: "Expert in manipulating charged particle beams with 7+ years of experience in the design of ion sources, beam extraction/transport systems, and digital twins.",
 
+  // Visitor stats: your GoatCounter code (the "xyz" in xyz.goatcounter.com). Leave "" to turn tracking off.
+  goatcounter: "bharatrawat",
+
   links: [
     { label: "bharat.bharat22@gmail.com", url: "mailto:bharat.bharat22@gmail.com" },
     { label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=gQP3HLAAAAAJ&view_op=list_works&sortby=pubdate" },
@@ -141,3 +144,14 @@ window.PROFILE = {
 
 /* Tiny helper shared by the themes: map a list to HTML. */
 window.cvMap = function (list, fn) { return (list || []).map(fn).join(""); };
+
+/* Visitor stats: loads GoatCounter on every page that includes this file (all themes). */
+(function () {
+  var code = String((window.PROFILE || {}).goatcounter || "").trim();
+  if (!/^[a-z0-9-]+$/i.test(code) || !document.head) return;
+  var s = document.createElement("script");
+  s.async = true;
+  s.src = "https://gc.zgo.at/count.js";
+  s.setAttribute("data-goatcounter", "https://" + code + ".goatcounter.com/count");
+  document.head.appendChild(s);
+})();
