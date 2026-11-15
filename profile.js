@@ -11,6 +11,9 @@
 window.PROFILE = {
   name: "BHARAT SINGH RAWAT, Ph.D.",
   title: "ION SOURCE & BEAM DIAGNOSTICS EXPERT",
+  location: "Vancouver, Canada",
+  // Profile photo for the main CV sidebar: a full URL or a path like "/CV/assets/img/photo.jpg". Leave "" to show initials.
+  photo: "",
   summary: "Expert in manipulating charged particle beams with 7+ years of experience in the design of ion sources, beam extraction/transport systems, and digital twins.",
 
   // Visitor stats: your GoatCounter code (the "xyz" in xyz.goatcounter.com). Leave "" to turn tracking off.
