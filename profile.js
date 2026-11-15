@@ -224,26 +224,30 @@ window.PROFILE = {
       tag: "Open-source software",
       text: "Ion-beam extraction and Monte Carlo Collision physics for ion sources, thrusters and fusion NBIs, with sputter erosion, grid end-of-life prediction and a real-time GUI.",
       url: "https://github.com/Bharat-Singh-Rawat/PY-BEMCS",
-      image: "/CV/v2/img/pybemcs.webp"
+      image: "/CV/v2/img/pybemcs.webp",
+      clip: "bemcs"
     },
     {
       name: "AEgIS Digital Twin",
       tag: "CERN · antimatter",
       text: "Reduced-order models combining first-principles physics with ML to predict Penning–Malmberg trap behaviour and optimise antiproton confinement.",
       url: "https://bharat-singh-rawat.github.io/AEgIS_Electromagnets_Outreach/",
-      image: "/CV/v2/img/digital-twin.webp"
+      image: "/CV/v2/img/digital-twin.webp",
+      clip: "penning,wall"
     },
     {
       name: "Ring-cusp ion source",
       tag: "Ph.D. · space propulsion & fusion",
       text: "Designed, built and characterised a multicusp source producing Ar⁺ beams at 1–2 keV / up to 100 mA, with up to 100% space-charge neutralisation.",
-      image: "/CV/v2/img/oris.webp"
+      image: "/CV/v2/img/oris.webp",
+      clip: "ion"
     },
     {
       name: "10 kW Faraday cup",
       tag: "M.Tech · beam diagnostics",
       text: "A water-cooled Faraday cup for 20–30 mA beams, a 20× upgrade over the legacy 1 kW system, with suppression optimised via SIMION and LORENTZ.",
-      image: "/CV/v2/img/hp-faraday-cup.webp"
+      image: "/CV/v2/img/hp-faraday-cup.webp",
+      clip: "faraday"
     }
   ],
 
