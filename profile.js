@@ -79,7 +79,9 @@ window.PROFILE = {
       org: "Beam Plasma Systems Lab, Moscow Institute of Physics and Technology (MIPT), Russia",
       place: { name: "MIPT, Moscow", lat: 55.93, lon: 37.52 },
       dates: "09/2017 — 10/2017",
-      bullets: []
+      bullets: [
+        "Carried out studies on <b>visible spectroscopy diagnostics</b> of the <b>electron beam source</b> at the Beam Plasma Systems Laboratory."
+      ]
     }
   ],
 
@@ -88,7 +90,7 @@ window.PROFILE = {
       role: "Ph.D.",
       org: "Homi Bhabha National Institute / Institute for Plasma Research",
       place: { name: "Gandhinagar, India", lat: 23.16, lon: 72.66 },
-      trips: [{ name: "Gyeongju, South Korea", lat: 35.86, lon: 129.22, note: "poster" }],
+      trips: [{ name: "Gyeongju, South Korea", lat: 35.86, lon: 129.22, note: "ICPP 2020 poster" }],
       dates: "2018 — 2024",
       bullets: [
         "Designed, developed and characterised a <b><a href=\"https://www.researchgate.net/publication/380433338_Studies_on_Extraction_of_an_Ion_beam_and_its_Transport_from_a_Multi-Cusp_Gridded_Ion_Source\" target=\"_blank\" rel=\"noopener\">ring cusp ion source</a></b> for space propulsion and fusion research, producing Ar⁺ beams at <b>1–2 keV / up to 100 mA</b> with an average <b>0.23 mA per aperture</b>.",
@@ -199,7 +201,7 @@ window.PROFILE = {
     text: "I work with electron and ion sources and the diagnostics that measure their beams. From Faraday cups and Langmuir probes to digital twins of antimatter traps, I build the tools that create, steer and measure charged-particle beams."
   },
 
-  // Travel pins for the v2 career globe ("Travel" mode). note and photos are optional.
+  // Travel pins for the v2 career globe ("Travel" mode). note, photos and cities (small dots under one pin) are optional.
   // Any place (jobs, talks, travels) can carry photos: ["/CV/v2/img/travel/x.webp"]; they pop up on the globe.
   travels: [
     { name: "Vienna, Austria", lat: 48.21, lon: 16.37, note: "EXA / LEAP conference", photos: ["/CV/v2/img/travel/vienna-exa.webp", "/CV/v2/img/travel/vienna.webp"] },
@@ -209,7 +211,12 @@ window.PROFILE = {
     { name: "Samarkand, Uzbekistan", lat: 39.65, lon: 66.96, note: "Bibi-Khanym Mosque", photos: ["/CV/v2/img/travel/samarkand.webp"] },
     { name: "Macau", lat: 22.20, lon: 113.54, note: "", photos: ["/CV/v2/img/travel/macau.webp"] },
     { name: "Bali, Indonesia", lat: -8.41, lon: 115.19, note: "Scuba diving", photos: ["/CV/v2/img/travel/bali.webp"] },
-    { name: "Colombia", lat: 4.64, lon: -75.49, note: "Cocora Valley", photos: ["/CV/v2/img/travel/colombia.webp"] }
+    { name: "Colombia", lat: 4.64, lon: -75.49, note: "", photos: ["/CV/v2/img/travel/colombia.webp"],
+      cities: [
+        { name: "Bogotá", lat: 4.71, lon: -74.07 }, { name: "Cartagena", lat: 10.39, lon: -75.48 },
+        { name: "Medellín", lat: 6.24, lon: -75.58 }, { name: "Barranquilla", lat: 10.97, lon: -74.80 },
+        { name: "Pereira", lat: 4.81, lon: -75.69 }, { name: "Cocora Valley", lat: 4.64, lon: -75.49 }
+      ] }
   ],
 
   // "What I can offer" (v2 site)
