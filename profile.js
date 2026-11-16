@@ -25,6 +25,7 @@ window.PROFILE = {
     { label: "bharat.bharat22@gmail.com", url: "mailto:bharat.bharat22@gmail.com" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/bharat-singh-rawat-ph-d-52b914315/" },
     { label: "Google Scholar", url: "https://scholar.google.com/citations?hl=en&user=gQP3HLAAAAAJ&view_op=list_works&sortby=pubdate" },
+    { label: "GitHub", url: "https://github.com/Bharat-Singh-Rawat" },
     { label: "AEgIS Digital Twin Outreach", url: "https://bharat-singh-rawat.github.io/AEgIS_Electromagnets_Outreach/" },
     { label: "PY-BEMCS",   url: "https://github.com/Bharat-Singh-Rawat/PY-BEMCS" },
     { label: "YouTube", url: "https://www.youtube.com/@bharatrawat5909" }
