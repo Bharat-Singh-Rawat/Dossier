@@ -186,7 +186,8 @@ window.PROFILE = {
   offer: [
     { title: "Consulting", text: "Ion-source and particle-trap design, beam diagnostics and simulation-based studies with CST Studio, MAD-X and more." },
     { title: "Mentoring", text: "Guidance for MS and Ph.D. applicants: application strategy, cover letters and CVs." },
-    { title: "Talks & outreach", text: "Seminars, expert lectures and school talks on ion sources, electric propulsion and particle accelerators." }
+    { title: "Talks & outreach", text: "Seminars, expert lectures and school talks on ion sources, electric propulsion and particle accelerators." },
+    { title: "Recruitment support", text: "I can help companies and research groups find qualified talent in plasma physics, ion sources and applied physics through my professional network." }
   ],
 
   // YouTube videos for the v2 site (id = the part after watch?v=). kind: "Lecture" or "Simulation".
