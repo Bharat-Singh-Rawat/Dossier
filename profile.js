@@ -6,6 +6,8 @@
    - Keep the quotes and commas exactly as they are; text goes between the quotes.
    - <b>...</b> makes text bold. Use plain Unicode for symbols (Ar⁺, °, µ, ³).
    - Newest item first in every list.
+   - place: { name, lat, lon } (or a list of them) puts a pin on the v2 career globe;
+     trips: [{ name, lat, lon, note }] adds conference/poster trips taken during that role.
    After editing: commit + push this repo (Dossier). All pages update within ~10 min (GitHub cache).
    ===================================================================== */
 window.PROFILE = {
@@ -32,6 +34,7 @@ window.PROFILE = {
     {
       role: "Accelerator Physicist",
       org: "Basilisk Industries, Vancouver, Canada",
+      place: { name: "Vancouver, Canada", lat: 49.28, lon: -123.12 },
       dates: "10/2026 — Present",
       bullets: [
         "Responsible for <b>electron injector design</b>, electron optics analysis and optimisation.",
@@ -41,6 +44,7 @@ window.PROFILE = {
     {
       role: "Independent R&amp;D and Scientific Consulting",
       org: "PY-BEMCS · consulting for start-ups and labs",
+      place: { name: "Ahmedabad, India", lat: 23.03, lon: 72.58 },
       dates: "03/2026 — 10/2026",
       bullets: [
         "Developed <b>PY-BEMCS</b>, a Python-based multiphysics suite for simulating ion-beam extraction and Monte Carlo Collision (MCC) physics in ion sources / thrusters and fusion Neutral Beam Injectors (NBI).",
@@ -52,6 +56,7 @@ window.PROFILE = {
     {
       role: "Research Associate",
       org: "University of Liverpool / Cockcroft Institute / CERN",
+      place: [{ name: "Liverpool, UK", lat: 53.41, lon: -2.97, photos: ["/CV/v2/img/travel/ibic.webp", "/CV/v2/img/travel/daresbury.webp", "/CV/v2/img/travel/liverpool.webp"] }, { name: "CERN, Geneva", lat: 46.23, lon: 6.05, photos: ["/CV/v2/img/travel/cern.webp"] }],
       dates: "2023 — 2026",
       bullets: [
         "Led <b>ballistic antiproton transport</b> optimisation studies during the annual shutdown, using a 3D CST Penning Trap model to validate the new Positronium target design and determine operational settings for antiproton velocities <b>below 2000 m/s</b>.",
@@ -62,11 +67,19 @@ window.PROFILE = {
     {
       role: "Radiation Protection Engineer",
       org: "Nuvia India Pvt Limited",
+      place: { name: "Kakrapar, Gujarat, India", lat: 21.24, lon: 73.35 },
       dates: "2018",
       bullets: [
         "Managed occupational radiation exposure for plant personnel at Kakrapar Atomic Power Station, ensuring strict adherence to weekly, monthly and annual regulatory dose limits.",
         "Developed an automated dose-tracking spreadsheet to monitor exposure trends and identify personnel approaching threshold limits, enabling proactive safety interventions."
       ]
+    },
+    {
+      role: "Research Intern",
+      org: "Beam Plasma Systems Lab, Moscow Institute of Physics and Technology (MIPT), Russia",
+      place: { name: "MIPT, Moscow", lat: 55.93, lon: 37.52 },
+      dates: "09/2017 — 10/2017",
+      bullets: []
     }
   ],
 
@@ -74,6 +87,8 @@ window.PROFILE = {
     {
       role: "Ph.D.",
       org: "Homi Bhabha National Institute / Institute for Plasma Research",
+      place: { name: "Gandhinagar, India", lat: 23.16, lon: 72.66 },
+      trips: [{ name: "Gyeongju, South Korea", lat: 35.86, lon: 129.22, note: "poster" }],
       dates: "2018 — 2024",
       bullets: [
         "Designed, developed and characterised a <b><a href=\"https://www.researchgate.net/publication/380433338_Studies_on_Extraction_of_an_Ion_beam_and_its_Transport_from_a_Multi-Cusp_Gridded_Ion_Source\" target=\"_blank\" rel=\"noopener\">ring cusp ion source</a></b> for space propulsion and fusion research, producing Ar⁺ beams at <b>1–2 keV / up to 100 mA</b> with an average <b>0.23 mA per aperture</b>.",
@@ -85,6 +100,7 @@ window.PROFILE = {
     {
       role: "M.Tech. Nuclear Engineering",
       org: "Pandit Deendayal Petroleum University",
+      place: { name: "Gandhinagar, India", lat: 23.16, lon: 72.67, photos: ["/CV/v2/img/travel/mtech.webp"] },
       dates: "2015 — 2017",
       bullets: [
         "Developed a <b><a href=\"https://www.researchgate.net/publication/356191414_Design_and_Development_of_10_kW_Faraday_Cup_for_Ion_beam_intensity_measurement\" target=\"_blank\" rel=\"noopener\">10 kW Faraday Cup</a></b> for 20–30 mA beam currents — a major upgrade over the legacy 1 kW / 500 µA system.",
@@ -96,6 +112,7 @@ window.PROFILE = {
     {
       role: "B.E. Mechanical Engineering",
       org: "Gujarat Technological University",
+      place: { name: "Ahmedabad, India", lat: 23.03, lon: 72.58 },
       dates: "2009 — 2013",
       bullets: [
         "<b>Thesis — Long Chain Beamer braking system:</b> showed cast iron in place of hardened mild steel reduced per-stop temperature rise by 1.39 °C, improving safety for heat-sensitive cotton.",
@@ -128,10 +145,10 @@ window.PROFILE = {
   ],
 
   talks: [
-    { type: "Invited talk", text: "\"Design tutorial on FC design for low energy antimatter research using CST Studio\" CST User Day, October 2025, Nottingham, United Kingdom." },
-    { type: "Contributed talk", text: "\"Digital Twin-Enabled Modeling of Antimatter Beam Control: Insights from AEgIS to EuPRAXIA\" EuPRAXIA-DN Camp II: Science, July 2025, Lisbon, Portugal." },
-    { type: "Contributed talk", text: "\"Trapping Antiprotons: Modeling Penning-Malmberg Traps for AEgIS at CERN\" SIMULIA Euronorth Regional User Meeting, June 2025, Manchester, United Kingdom." },
-    { type: "Contributed talk", text: "\"Design and Simulation of 10 kW Faraday Cup for Ion Beam Current Measurement\" 25th International Conference on Nuclear Engineering (ICONE25), 2017, Shanghai, China." }
+    { type: "Invited talk", text: "\"Design tutorial on FC design for low energy antimatter research using CST Studio\" CST User Day, October 2025, Nottingham, United Kingdom.", place: { name: "Nottingham, UK", lat: 52.95, lon: -1.15, photos: ["/CV/v2/img/travel/nottingham.webp"] } },
+    { type: "Contributed talk", text: "\"Digital Twin-Enabled Modeling of Antimatter Beam Control: Insights from AEgIS to EuPRAXIA\" EuPRAXIA-DN Camp II: Science, July 2025, Lisbon, Portugal.", place: { name: "Lisbon, Portugal", lat: 38.72, lon: -9.14, photos: ["/CV/v2/img/travel/lisbon.webp"] } },
+    { type: "Contributed talk", text: "\"Trapping Antiprotons: Modeling Penning-Malmberg Traps for AEgIS at CERN\" SIMULIA Euronorth Regional User Meeting, June 2025, Manchester, United Kingdom.", place: { name: "Manchester, UK", lat: 53.48, lon: -2.24, photos: ["/CV/v2/img/travel/manchester.webp"] } },
+    { type: "Contributed talk", text: "\"Design and Simulation of 10 kW Faraday Cup for Ion Beam Current Measurement\" 25th International Conference on Nuclear Engineering (ICONE25), 2017, Shanghai, China.", place: { name: "Shanghai, China", lat: 31.23, lon: 121.47, note: "talk & poster", photos: ["/CV/v2/img/travel/shanghai.webp"] } }
   ],
 
   hobbies: [
@@ -181,6 +198,19 @@ window.PROFILE = {
     photoAlt: "Portrait of Bharat Singh Rawat",
     text: "I work with electron and ion sources and the diagnostics that measure their beams. From Faraday cups and Langmuir probes to digital twins of antimatter traps, I build the tools that create, steer and measure charged-particle beams."
   },
+
+  // Travel pins for the v2 career globe ("Travel" mode). note and photos are optional.
+  // Any place (jobs, talks, travels) can carry photos: ["/CV/v2/img/travel/x.webp"]; they pop up on the globe.
+  travels: [
+    { name: "Vienna, Austria", lat: 48.21, lon: 16.37, note: "EXA / LEAP conference", photos: ["/CV/v2/img/travel/vienna-exa.webp", "/CV/v2/img/travel/vienna.webp"] },
+    { name: "Rome, Italy", lat: 41.90, lon: 12.50, note: "EuPRAXIA talk", photos: ["/CV/v2/img/travel/rome.webp", "/CV/v2/img/travel/vatican.webp"] },
+    { name: "Toledo, Spain", lat: 39.86, lon: -4.02, note: "2025", photos: ["/CV/v2/img/travel/toledo.webp"] },
+    { name: "Tashkent, Uzbekistan", lat: 41.30, lon: 69.24, note: "Chorsu Bazaar", photos: ["/CV/v2/img/travel/tashkent.webp"] },
+    { name: "Samarkand, Uzbekistan", lat: 39.65, lon: 66.96, note: "Bibi-Khanym Mosque", photos: ["/CV/v2/img/travel/samarkand.webp"] },
+    { name: "Macau", lat: 22.20, lon: 113.54, note: "", photos: ["/CV/v2/img/travel/macau.webp"] },
+    { name: "Bali, Indonesia", lat: -8.41, lon: 115.19, note: "Scuba diving", photos: ["/CV/v2/img/travel/bali.webp"] },
+    { name: "Colombia", lat: 4.64, lon: -75.49, note: "Cocora Valley", photos: ["/CV/v2/img/travel/colombia.webp"] }
+  ],
 
   // "What I can offer" (v2 site)
   offer: [
