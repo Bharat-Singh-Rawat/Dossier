@@ -129,10 +129,10 @@ window.PROFILE = {
       authors: "Butcher, W.; Kumar, N.; Patel, M.; Rawat, B.S.; Stringer, O.; Parambil, F.T.M.; Zhang, H.; Welsch, C.P.", doi: "10.3390/instruments10030035" },
     { venue: "Instruments (2026)", title: "Characterization of the extraction system of supersonic gas curtain-based ionization profile monitor for flash proton therapy.",
       authors: "Thesni, F.; Patel, M.; Kumar, N.; Rawat, B.S.; Butcher, W.; Price, T.; Welsch, C.P.", doi: "10.3390/instruments10010004" },
-    { venue: "IBIC (2025)", title: "Design studies of a Retarding Potential Energy Analyser (RPEA) for low energy antimatter experiments." },
+    { venue: "IBIC (2025)", title: "Design studies of a Retarding Potential Energy Analyser (RPEA) for low energy antimatter experiments.", doi: "10.18429/JACoW-IBIC2025-MOPMO02" },
     { venue: "Instruments (2025)", title: "Faraday cups: principles, designs, and applications across scientific disciplines—a review.", badge: "Journal cover", cover: "/CV/v2/img/fc-cover.webp",
       authors: "Rawat, B.S.; Kumar, N.; Ghosal, D.; Aflyatunova, D.; Rienäcker, B.; Welsch, C.P.", doi: "10.3390/instruments9030020" },
-    { venue: "EXA-LEAP (2025)", title: "3D simulation studies of mixed plasma confinement at AEgIS." },
+    { venue: "EXA-LEAP (2025)", title: "3D simulation studies of mixed plasma confinement at AEgIS.", doi: "10.22323/1.480.0076" },
     { venue: "Phys. Rev. Lett. (2024)", title: "Positronium Laser Cooling via the 1³S-2³P Transition with a Broadband Laser Pulse.", badge: "Top 10 Breakthrough 2024",
       doi: "10.1103/PhysRevLett.132.083402", award: "Physics World",
       awardLink: "https://physicsworld.com/a/top-10-breakthroughs-of-the-year-in-physics-for-2024-revealed/" },
@@ -148,6 +148,30 @@ window.PROFILE = {
     { venue: "ICONE25 (2017)", title: "Design and simulation of 10kW Faraday cup for ion beam current.",
       authors: "Rawat, B.S.; Vala, S.; Abhangi, M.; Kumar, R.; Chauhan, S.", doi: "10.1115/ICONE25-67589" }
   ],
+
+  // Every other paper, poster and proceeding (from ORCID / ResearchGate), newest first. Shown on the CV v2
+  // as a compact, collapsed "All publications" list under the selected ones above.
+  morePublications: [
+    { venue: "Radiat. Phys. Chem. (2026)", title: "Production of negatively charged atomic ions inside a linear Paul trap for the formation of antiprotonic atoms.", doi: "10.1016/j.radphyschem.2026.113884" },
+    { venue: "Phys. Rev. Research (2026)", title: "Spectrometry of captured highly charged ions produced following antiproton annihilations.", doi: "10.1103/gg1j-vtvy" },
+    { venue: "IBIC (2025)", title: "Simulation and feasibility analysis of a non-invasive cavity bunch charge monitor for low-energy antiproton beams.", doi: "10.18429/JACoW-IBIC2025-MOPCO13" },
+    { venue: "IBIC (2025)", title: "Experimental investigation into supersonic gas jet induced beam perturbation.", doi: "10.18429/JACoW-IBIC2025-TUPCO18" },
+    { venue: "IBIC (2025)", title: "Gas-jet based ionization profile monitor for proton FLASH therapy.", doi: "10.18429/JACoW-IBIC2025-TUPMO05" },
+    { venue: "Science Advances (2025)", title: "Real-time antiproton annihilation vertexing with submicrometer resolution.", doi: "10.1126/sciadv.ads1176" },
+    { venue: "J. Phys.: Conf. Ser. (2025)", title: "Laser cooling positronium with broadband laser pulses.", doi: "10.1088/1742-6596/3029/1/012002" },
+    { venue: "EXA-LEAP (2025)", title: "Positronium Doppler laser cooling: results and perspectives.", doi: "10.22323/1.480.0047" },
+    { venue: "EXA-LEAP (2025)", title: "The AEgIS experiment: progress and future outlook.", doi: "10.22323/1.480.0024" },
+    { venue: "EXA-LEAP (2025)", title: "Prospects for forward emitted positronium from nanoporous membranes at AEgIS.", doi: "10.22323/1.480.0082" },
+    { venue: "Rev. Sci. Instrum. (2024)", title: "TALOS (Total Automation of LabVIEW Operations for Science): a framework for autonomous control systems for complex experiments.", doi: "10.1063/5.0196806" },
+    { venue: "EPJ Quantum Technology (2024)", title: "CIRCUS: an autonomous control system for antimatter, atomic and quantum physics experiments.", doi: "10.1140/epjqt/s40507-024-00220-6" },
+    { venue: "J. Phys.: Conf. Ser. (2022)", title: "Effects of axial magnetic field in a magnetic multipole line cusp ion source.", doi: "10.1088/1742-6596/2244/1/012082" },
+    { venue: "InPAC poster (2022)", title: "Development of a low energy ring cusp ion source for thruster applications.", doi: "10.13140/RG.2.2.28350.97606" },
+    { venue: "ICPP (2022)", title: "Magnetic confinement of primary electrons in a ring cusp ion source.", doi: "10.13140/RG.2.2.33289.31845" },
+    { venue: "IEEE ICOPS (2020)", title: "Characteristic performance of a multi-aperture ion source for application in ion thruster and material processing.", doi: "10.1109/ICOPS37625.2020.9717863" },
+    { venue: "InPAC poster (2019)", title: "A Faraday cup array for the measurement of ion current density profiles for a gridded ion thruster.", doi: "10.13140/RG.2.2.32993.04961" },
+    { venue: "ICECDS (2017)", title: "Nuclear fission energy, a viable, carbon-free option for high base-load electricity, hydrogen production and desalination, while containing global temperature rise below 2°C.", doi: "10.1109/ICECDS.2017.8390061" }
+  ],
+
 
   talks: [
     { type: "Invited talk", text: "\"Design tutorial on FC design for low energy antimatter research using CST Studio\" CST User Day, October 2025, Nottingham, United Kingdom.", place: { name: "Nottingham, UK", lat: 52.95, lon: -1.15, photos: ["/CV/v2/img/travel/nottingham.webp"] } },
