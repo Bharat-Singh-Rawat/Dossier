@@ -313,7 +313,7 @@ window.PROFILE = {
 
   // "What I can offer" (v2 site)
   offer: [
-    { title: "Consulting", text: "Ion-source and particle-trap design, beam diagnostics and simulation-based studies with CST Studio, MAD-X and more." },
+    { title: "Consulting", text: "Ion-source, particle-trap and beam-diagnostics design, backed by multiphysics software and computational workflows I build (CST Studio, MAD-X, Python). For deep-tech start-ups, government labs and specialist firms." },
     { title: "Mentoring", text: "Guidance for MS and Ph.D. applicants: application strategy, cover letters and CVs." },
     { title: "Talks & outreach", text: "Seminars, expert lectures and school talks on ion sources, electric propulsion and particle accelerators." },
     { title: "Recruitment support", text: "I can help companies and research groups find qualified talent in plasma physics, ion sources and applied physics through my professional network." }
