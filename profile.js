@@ -343,6 +343,7 @@ window.PROFILE = {
     { img: "/CV/v2/img/hp-faraday-cup.webp", title: "High-power Faraday cup", text: "Water-cooled copper cup for 10 kW, 20–30 mA beams." },
     { img: "/CV/v2/img/wire-array.webp", title: "Parallel wire array", text: "Wire array for measuring ion-beam profiles." },
     { img: "/CV/v2/img/magnet-rpa.webp", title: "Magnetic RPA", text: "Retarding potential analyser with a magnetic filter for low-energy charge-exchange ions.", cad: "magnetic-rpa" },
+    { img: "/CV/v2/img/penning-3d.webp", title: "AEgIS Penning trap", text: "My Geant4 model of the AEgIS antimatter trap: antiprotons annihilate and the detectors light up.", cad: "penning" },
     { img: "/CV/v2/img/langmuir-probe.webp", title: "Langmuir probe", text: "Plasma-density probe: 5.5 mm long, 0.5 mm diameter tip." },
     { img: "/CV/v2/img/cx-probe.webp", title: "Charge-exchange probe", text: "Probe for charge-exchange ions in the beam region." },
     { img: "/CV/v2/img/thrust-sensor.webp", title: "Thrust sensor", text: "Thrust measurement for electric-propulsion tests." }
