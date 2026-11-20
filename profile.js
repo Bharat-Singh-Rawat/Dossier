@@ -340,7 +340,7 @@ window.PROFILE = {
     { img: "/CV/v2/img/grids.webp", title: "Screen & acceleration grids", text: "Ion optics for the line-cusp source, isolated with ceramic balls." },
     { img: "/CV/v2/img/line-cusp.webp", title: "Line-cusp ion source", text: "Inside the discharge chamber of the line-cusp source with axial confinement." },
     { img: "/CV/v2/img/fc-array.webp", title: "Faraday cup array", text: "Real-time, in-situ ion-beam profile monitoring.", cad: "fc-array" },
-    { img: "/CV/v2/img/hp-faraday-cup.webp", title: "High-power Faraday cup", text: "Water-cooled copper cup for 10 kW, 20–30 mA beams." },
+    { img: "/CV/v2/img/hp-faraday-cup.webp", title: "High-power Faraday cup", text: "Water-cooled copper cup for 10 kW, 20–30 mA beams.", cad: "hp-cup" },
     { img: "/CV/v2/img/wire-array.webp", title: "Parallel wire array", text: "Wire array for measuring ion-beam profiles." },
     { img: "/CV/v2/img/magnet-rpa.webp", title: "Magnetic RPA", text: "Retarding potential analyser with a magnetic filter for low-energy charge-exchange ions.", cad: "magnetic-rpa" },
     { img: "/CV/v2/img/langmuir-probe.webp", title: "Langmuir probe", text: "Plasma-density probe: 5.5 mm long, 0.5 mm diameter tip." },
