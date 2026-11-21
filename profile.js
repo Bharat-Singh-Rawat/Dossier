@@ -21,6 +21,10 @@ window.PROFILE = {
   // Visitor stats: your GoatCounter code (the "xyz" in xyz.goatcounter.com). Leave "" to turn tracking off.
   goatcounter: "bharatrawat",
 
+  // Where I live now: the yellow "home" pin on the GitHub visitor map (tracks curl in to it).
+  // Change this when I move; remove it to use the first job's place instead.
+  home: { name: "Ahmedabad, India", lat: 23.03, lon: 72.58 },
+
   links: [
     { label: "bharat.bharat22@gmail.com", url: "mailto:bharat.bharat22@gmail.com" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/bharat-singh-rawat-ph-d-52b914315/" },
