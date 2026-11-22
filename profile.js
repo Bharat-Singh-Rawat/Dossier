@@ -366,7 +366,7 @@ window.PROFILE = {
       name: "AEgIS Digital Twin",
       tag: "CERN · antimatter",
       text: "Reduced-order models combining first-principles physics with ML to predict Penning–Malmberg trap behaviour and optimise antiproton confinement.",
-      url: "https://bharat-singh-rawat.github.io/AEgIS_Electromagnets_Outreach/",
+      url: "https://bharat-singh-rawat.github.io/AEgIS_Digital_Twin/",
       image: "/CV/v2/img/digital-twin.webp",
       clip: "penning,wall"
     },
