@@ -39,7 +39,7 @@ window.PROFILE = {
   experience: [
     {
       role: "Accelerator Physicist",
-      org: "Basilisk Industries, Vancouver, Canada",
+      org: "Basilisk Industries, Vancouver, Canada (Remote)",
       place: { name: "Vancouver, Canada", lat: 49.28, lon: -123.12 },
       dates: "10/2026 — Present",
       bullets: [
