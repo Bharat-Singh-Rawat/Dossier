@@ -292,7 +292,7 @@ window.PROFILE = {
 
   // About blurb + photo for the v2 site
   about: {
-    photo: "/CV/v2/img/profile.webp",
+    photo: "/CV/v2/img/profile-cutout.webp",
     photoAlt: "Portrait of Bharat Singh Rawat",
     text: "I work with electron and ion sources and the diagnostics that measure their beams. From Faraday cups and Langmuir probes to digital twins of antimatter traps, I build the tools that create, steer and measure charged-particle beams."
   },
