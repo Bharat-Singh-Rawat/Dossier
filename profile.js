@@ -387,9 +387,9 @@ window.PROFILE = {
     {
       name: "Faraday Cup Atlas",
       tag: "Open data · beam diagnostics",
-      text: "Published Faraday cups from labs around the world on one interactive map, with the beam, energy, cup material and design each paper reports, filterable and linked to every paper.",
+      text: "Published Faraday cups from labs around the world on one interactive globe, with the beam, energy, cup material and design each paper reports, filterable and linked to every paper.",
       url: "/CV/fc-atlas/",
-      image: "/CV/v2/img/fc-atlas.webp"
+      image: "/CV/v2/img/fc-atlas.webp?v=2"
     },
     {
       name: "Induction cathode heater",
