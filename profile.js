@@ -392,6 +392,13 @@ window.PROFILE = {
       image: "/CV/v2/img/fc-atlas.webp?v=2"
     },
     {
+      name: "Gas-curtain IPM, re-simulated",
+      tag: "Simulation · Elmer FEM + Geant4",
+      text: "An independent open-source re-simulation of a supersonic gas-curtain beam-profile monitor: Elmer extraction field and a full Geant4 Monte Carlo with ions, delta electrons, background gas and gas light, compared with the published CST design.",
+      url: "/CV/ipm/",
+      image: "/CV/v2/img/gas-curtain-ipm.webp"
+    },
+    {
       name: "Induction cathode heater",
       tag: "Simulation · Elmer FEM",
       text: "Coupled 3D electromagnetic and thermal model of an induction-heated LaB₆ cathode warming up from room temperature, built in the open-source Elmer FEM solver and checked against a 2D model.",
