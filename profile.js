@@ -321,7 +321,7 @@ window.PROFILE = {
     { title: "Mentoring", text: "Guidance for MS and Ph.D. applicants: application strategy, cover letters and CVs." },
     { title: "Talks & outreach", text: "Seminars, expert lectures and school talks on ion sources, electric propulsion and particle accelerators." },
     { title: "Recruitment support", text: "I can help companies and research groups find qualified talent in plasma physics, ion sources and applied physics through my professional network." },
-    { title: "Open data tools", text: "Free, interactive data pages for beam work: secondary electron and sputtering yields versus energy for many beams and materials, and an atlas of published Faraday cups by beam, energy and design; every point traceable to its source.", links: [{ href: "/CV/yields/", text: "Yield Explorer" }, { href: "/CV/fc-atlas/", text: "Faraday Cup Atlas" }] }
+    { title: "Open data tools", text: "Free, interactive data pages for beam work: secondary electron and sputtering yields versus energy for many beams and materials, an atlas of published Faraday cups, and every gridded-ion and Hall thruster flown in space with its key parameters; every point traceable to its source.", links: [{ href: "/CV/yields/", text: "Yield Explorer" }, { href: "/CV/fc-atlas/", text: "Faraday Cup Atlas" }, { href: "/CV/thrusters/", text: "EP in Space" }] }
   ],
 
   // YouTube videos for the v2 site (id = the part after watch?v=). kind: "Lecture" or "Simulation".
