@@ -112,7 +112,7 @@ window.PROFILE = {
       dates: "2015 — 2017",
       bullets: [
         "Developed a <b><a href=\"https://www.researchgate.net/publication/356191414_Design_and_Development_of_10_kW_Faraday_Cup_for_Ion_beam_intensity_measurement\" target=\"_blank\" rel=\"noopener\">10 kW Faraday Cup</a></b> for 20–30 mA beam currents — a major upgrade over the legacy 1 kW / 500 µA system.",
-        "Engineered a water-cooling system holding peak temperature to <b>350.6 °C</b>, well below copper's 1085 °C melting point.",
+        "Engineered a water-cooling system holding peak temperature to <b>350.6 °C</b>, well below copper’s 1085 °C melting point.",
         "Determined optimal suppression voltage of <b>−450 to −500 V</b> via SIMION 8.0 and LORENTZ particle tracking.",
         "Optimised a 30° cone geometry, reducing total secondary electron yield by a factor of <b>1.15</b> compared to larger angles."
       ]
