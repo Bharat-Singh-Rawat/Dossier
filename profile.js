@@ -133,7 +133,7 @@ window.PROFILE = {
     { venue: "Instruments (2026)", title: "Invasiveness study of supersonic gas-curtain-based ionization profile monitor for medical accelerators.",
       authors: "Butcher, W.; Kumar, N.; Patel, M.; Rawat, B.S.; Stringer, O.; Parambil, F.T.M.; Zhang, H.; Welsch, C.P.", doi: "10.3390/instruments10030035" },
     { venue: "Instruments (2026)", title: "Characterization of the extraction system of supersonic gas curtain-based ionization profile monitor for flash proton therapy.",
-      authors: "Thesni, F.; Patel, M.; Kumar, N.; Rawat, B.S.; Butcher, W.; Price, T.; Welsch, C.P.", doi: "10.3390/instruments10010004" },
+      authors: "Thesni, F.; Patel, M.; Kumar, N.; Rawat, B.S.; Butcher, W.; Price, T.; Welsch, C.P.", doi: "10.3390/instruments10010004", sim: "/CV/ipm/" },
     { venue: "IBIC (2025)", title: "Design studies of a Retarding Potential Energy Analyser (RPEA) for low energy antimatter experiments.", doi: "10.18429/JACoW-IBIC2025-MOPMO02" },
     { venue: "Instruments (2025)", title: "Faraday cups: principles, designs, and applications across scientific disciplines—a review.", badge: "Journal cover", cover: "/CV/v2/img/fc-cover.webp",
       authors: "Rawat, B.S.; Kumar, N.; Ghosal, D.; Aflyatunova, D.; Rienäcker, B.; Welsch, C.P.", doi: "10.3390/instruments9030020" },
@@ -390,13 +390,6 @@ window.PROFILE = {
       text: "Published Faraday cups from labs around the world on one interactive globe, with the beam, energy, cup material and design each paper reports, filterable and linked to every paper.",
       url: "/CV/fc-atlas/",
       image: "/CV/v2/img/fc-atlas.webp?v=2"
-    },
-    {
-      name: "Gas-curtain IPM, re-simulated",
-      tag: "Simulation · Elmer FEM + Geant4",
-      text: "An independent open-source re-simulation of a supersonic gas-curtain beam-profile monitor: Elmer extraction field and a full Geant4 Monte Carlo with ions, delta electrons, background gas and gas light, compared with the published CST design.",
-      url: "/CV/ipm/",
-      image: "/CV/v2/img/gas-curtain-ipm.webp"
     },
     {
       name: "Induction cathode heater",
