@@ -385,6 +385,13 @@ window.PROFILE = {
       clip: "faraday"
     },
     {
+      name: "Faraday Cup Atlas",
+      tag: "Open data · beam diagnostics",
+      text: "Published Faraday cups from labs around the world on one interactive map, with the beam, energy, cup material and design each paper reports, filterable and linked to every paper.",
+      url: "/CV/fc-atlas/",
+      image: "/CV/v2/img/fc-atlas.webp"
+    },
+    {
       name: "Induction cathode heater",
       tag: "Simulation · Elmer FEM",
       text: "Coupled 3D electromagnetic and thermal model of an induction-heated LaB₆ cathode warming up from room temperature, built in the open-source Elmer FEM solver and checked against a 2D model.",
