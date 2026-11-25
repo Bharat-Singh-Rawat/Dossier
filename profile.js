@@ -384,12 +384,6 @@ window.PROFILE = {
       text: "A water-cooled Faraday cup for 20–30 mA beams, a 20× upgrade over the legacy 1 kW system, with suppression optimised via SIMION and LORENTZ.",
       image: "/CV/v2/img/hp-faraday-cup.webp",
       clip: "faraday"
-    },
-    {
-      name: "Induction cathode heater",
-      tag: "Simulation · Elmer FEM",
-      text: "Coupled 3D electromagnetic and thermal model of an induction-heated LaB₆ cathode warming up from room temperature, built in the open-source Elmer FEM solver and checked against a 2D model.",
-      wide: true
     }
   ],
 
