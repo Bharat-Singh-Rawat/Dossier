@@ -389,7 +389,6 @@ window.PROFILE = {
       name: "Induction cathode heater",
       tag: "Simulation · Elmer FEM",
       text: "Coupled 3D electromagnetic and thermal model of an induction-heated LaB₆ cathode warming up from room temperature, built in the open-source Elmer FEM solver and checked against a 2D model.",
-      image: "/CV/v2/img/induction-heater.webp",
       wide: true
     }
   ],
